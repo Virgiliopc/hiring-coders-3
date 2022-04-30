@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/03023a8d65.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Virgílio P. Costa</title>
+</head>
+<body>
+    <header>
+        <div>
+            <p class="Logo">V P Costa</p> 
+        </div>
+        <ul>
+            <li>
+                <a target="_blank" href="https://github.com/virgiliopc">github</a>
+            </li>
+            <li>
+                <a target="_blank" href="mailto:virgilio.pires.costa@gmail.com">e-mail</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.linkedin.com/in/virgilio-pires-da-costa/">Linkedin</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://wa.me/5544XXXXXXXXX">Whatsapp</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>Virgílio Pires da Costa</h1>
+                <h5>Front-End Developer</h5>
+            </div>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fas fa-sort-down"></i>
+            </div>
+            <div style="display: none;" class="flex" id="flex">
+                <div>
+                    <img src="./img/instagram-perfil.png" alt="perfil-instagram">
+                        <p>O projeto faz parte do Bootcamp HTML Web Developer da Digital Innovation One, aprenda a programar páginas de internet e desenvolver websites utilizando HTML, CSS e JavaScript.</p>
+                </div>
+                <div>
+                    <img src="./img/clone-netflix.png" alt="clone-netflix">
+                        <p>O Projeto faz parte do Bootcamp HTML Web Developer da Digital Innovation One, esse módulo foi ministrado por @felipeAguiarCode.</p>
+                </div>
+                <div>
+                    <img src="./img/projetodevsuperior.png" alt="DS-Vendas">
+                        <p>Trata-se de um Dashboard de vendas. O Frontend é composto por ReactJS e Bootstrap. E o Backend por Java com SpringBoot e banco de dados PostgreSQL. A aplicação fornece informações de vendas. </p>
+                </div>
+            </div>
+
+            <!-- <div id="about">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, incidunt? Asperiores, architecto maiores in ea, voluptatem quas nisi harum quaerat at ullam voluptate sapiente amet neque omnis itaque? Distinctio, dolorem?
+                </p>
+            </div> -->
+            <div class="form">
+                <div>
+                    <p>Deixe seu contato!</p>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Seu melhor e-mail :)">
+                    <button>Enviar!</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+    <script>
+        function displayAbout() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('flex');
+            display.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
