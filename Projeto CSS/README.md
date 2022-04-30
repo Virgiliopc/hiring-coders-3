@@ -12,6 +12,10 @@
   <img src="./img/portfolio.png" width="600">
 </p>
 
+<p align="center">
+  <img src="./img/portfolio2.png" width="600">
+</p>
+
 ## :information_source: Sobre
 
 Portfólio
