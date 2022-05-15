@@ -42,13 +42,13 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
-- [GIT] (https://git-scm.com/docs/git/pt_BR)
-- [React] (https://pt-br.reactjs.org/docs/getting-started.html)
-- [Node.js] (https://nodejs.org/pt-br/docs/)
-- [Typescript] (https://www.typescriptlang.org/docs/)
-- [GraphQl] (https://graphql.org/learn/)
-- [Next.js] (https://nextjs.org/docs)
-- [Gatsby] (https://www.gatsbyjs.com/docs/)
+- [GIT](https://git-scm.com/docs/git/pt_BR)
+- [React](https://pt-br.reactjs.org/docs/getting-started.html)
+- [Node.js](https://nodejs.org/pt-br/docs/)
+- [Typescript](https://www.typescriptlang.org/docs/)
+- [GraphQl](https://graphql.org/learn/)
+- [Next.js](https://nextjs.org/docs)
+- [Gatsby](https://www.gatsbyjs.com/docs/)
 
 ## Licença
 
