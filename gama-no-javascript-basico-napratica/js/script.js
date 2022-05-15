@@ -32,7 +32,6 @@ function validaCPF(cpf) {
     if (resultado != digitos.charAt(1)) {
       return false;
     }   
-  
 
     return true;
   }
